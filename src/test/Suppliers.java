@@ -18,7 +18,7 @@ public class Suppliers {
 	}
 	public static void main(String[] args) throws Exception {
 
-		//Invoke the browser d
+		//Invoke the browser
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
